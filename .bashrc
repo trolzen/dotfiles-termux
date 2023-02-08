@@ -7,6 +7,8 @@ alias la='ls -A'
 alias lla='ls -AgGh --time-style=long-iso'
 alias l='ls -CF'
 alias e=micro
+alias py=python
+alias dig='dig +nocomments +nocmd +nostats'
 
 export EDITOR=micro
 PS1='\[\033[01;33m\]\w\[\033[00m\]$ '
